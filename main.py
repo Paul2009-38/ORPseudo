@@ -21,13 +21,6 @@ for i in range(5):
         r=random.randint(1, n)
         pseudoV.append(Voyelles[r-1])
 
-def defLan():
-    n=0
-    for i in Lan:
-       n=n+1
-    r=random.randint(1, n)
-    return Lan[r]
-d=defLan()
 for a in range(5):
     pseudo=pseudo+pseudoV[a]
 print("Votre pseudo sera %s" % (pseudo))
