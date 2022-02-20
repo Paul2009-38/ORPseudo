@@ -1,9 +1,7 @@
 import random
 
-ac=input("Votre prénom: ")
 Consonnes=['qu','b','c','d','f','g','h','j','k','l','m','n','p','r','s','t','v','w','x','z']
 Voyelles=['a','e','i','o','u','y']
-Lan=['Français', 'Anglais', 'Espagñol', 'Italien', 'Allemand']
 lanfin=""
 pseudoV=[]
 pseudo=""
@@ -32,4 +30,4 @@ def defLan():
 d=defLan()
 for a in range(5):
     pseudo=pseudo+pseudoV[a]
-print("Bonjour %s, votre pseudo sera %s et il parlera %s" % (ac, pseudo, d))
+print("Votre pseudo sera %s" % (pseudo))
