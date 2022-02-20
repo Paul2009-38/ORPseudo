@@ -24,3 +24,4 @@ for i in range(5):
 for a in range(5):
     pseudo=pseudo+pseudoV[a]
 print("Votre pseudo sera %s" % (pseudo))
+input()
