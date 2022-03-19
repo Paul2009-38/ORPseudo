@@ -1,4 +1,4 @@
-# OneRévolution | ORPseudo
+# OneRandomPseudo | ORPseudo
 Ce projet permet de générer un pseudo en python.
 ### À faire
 
